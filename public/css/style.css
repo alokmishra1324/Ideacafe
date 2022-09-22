@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+    background: #e7dfd8 ;
+}
+ .page1{
+    padding: 0 70px;
+} 
+
+
+
+.page1 ul{
+    padding: 50px 100px;
+}
+
+
+.page1 ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 90px;
+
+}
+.page1 ul li a{
+    text-align: center;
+    font-family: unset;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.page1 a.active {
+
+    color: #38b6ff;
+    transition: .5s;
+} 
+
+.page1 a:hover{
+    color: #38b6ff;
+    transition: .5s;
+}
+.heading{
+    padding-top: 30px;
+}
+.heading h1{
+    font-size: 80px;
+    margin-left: 120px;
+    font-family: 'Kanit', sans-serif;
+}
+.heading p{
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.heading img{
+   
+    float: right;
+    margin-right: 120px;
+   
+}
+.connect{
+    font-family: unset;
+    font-size: 25px;
+    margin: 100px 0px 30px 120px;
+}
+.s{
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.s1{
+    font-size: 45px;
+    margin-left: 120px;
+}
+.s:hover{
+    color: #38b6ff;
+}
+
+.s1:hover{
+    background: #d6249f;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
